@@ -1,0 +1,16 @@
+div {
+    /* ความกว้าง */
+    width: 300px;
+    
+    /* ความสูง */
+    height: 150px;
+    
+    /* สีพื้นหลัง */
+    background: #000;
+    
+    /* สีข้างใน */
+    color: white;
+    
+    /* ปรับ text อยู่ตรงกลาง */
+    text-align: center;
+}
