@@ -1,9 +1,9 @@
-div {
+div none {
     /* ความกว้าง */
-    width: 1000px;
+    width: 50px;
     
     /* ความสูง */
-    height: 500px;
+    height: 50px;
     
     /* สีพื้นหลัง */
     background: #2f2f2f;
@@ -50,7 +50,6 @@ body {
 } 
 
 OR
-*/
 
 p.dotted {border-style: dotted;}
 p.dashed {border-style: dashed;}
@@ -62,4 +61,46 @@ p.inset {border-style: inset;}
 p.outset {border-style: outset;}
 p.none {border-style: none;}
 p.hidden {border-style: hidden;}
-p.mix {border-style: dotted dashed solid double;}
+p.mix {border-style: dotted dashed solid double;} */
+
+div.box {
+    background: black;
+    color: white;
+    border: 3px solid green;
+    margin: 10px;
+}
+
+div.margin {
+    background: white;
+    color: black;
+    border: 3px solid red;
+    margin: 10px;
+}
+
+div.margin-bottom {
+    background: white;
+    color: black;
+    border: 3px solid red;
+    margin-bottom: 10px;
+}
+
+div.margin-left {
+    background: white;
+    color: black;
+    border: 3px solid red;
+    margin-left: 10px;
+}
+
+div.margin-right {
+    background: white;
+    color: black;
+    border: 3px solid red;
+    margin-right: 10px;
+}
+
+div.margin-top {
+    background: white;
+    color: black;
+    border: 3px solid red;
+    margin-top: 10px;
+}
