@@ -1,17 +1,22 @@
-div {
-    width: 300px;
-    height: 150px;
-    border: 2px solid black;
+.div0 {
+    float: left;
+    background: blue;
+}
 
-    /* เดิมเดิมไม่มีอะไร */
-    /* overflow: visible; */
+.div1 {
+    background: red;
+    float: right;
 
-    /* ซ่อนเนื้อหาที่เกิน */
-    /* overflow: hidden; */
+    /* div::after ใช้สำหรับ clear box สามารถใช้ none left right both */
+    clear: right;    
+}
 
-    /* เพิ่ม scroll */
-    /* overflow: scroll; */
-    
-    /* เพิ่ม scroll ตอนจำเป็น */
-    overflow: auto;
+.div2 {
+    background: yellow;
+    float: none;
+}
+
+.div3 {
+    background: green;
+    float: inherit;
 }
