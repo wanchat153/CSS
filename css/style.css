@@ -1,17 +1,19 @@
-/* Reset CSS */
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+/* ID selector - ความ Specificity = 1 */
+#my-paragraph {
+    color: blue; /* กำหนดสีตัวอักษรเป็นสีน้ำเงิน */
 }
 
-div {
-    width: 300px;
-    height: 300px;
-    background: red;
-    border: 10px solid #0099CC;
-    padding: 20px;
+/* Element selector + Class selector - ความ Specificity = 2*/
+p.my-class {
+    color: purple; /* กำหนดสีตัวอักษรเป็นสีม่วง */
+}
 
-    /* ขนาดพื้นที่จริง(จะแสดงใหม่เป็น กล่องหลัก) = (กล่องหลัก 300) + (padding 2 ข้าง) + (border 2 ข้าง)*/
-    box-sizing: border-box;
+/* Class selector - ความ Specificity = 3 */
+.my-class {
+    color: green; /* กำหนดสีตัวอักษรเป็นสีเขียว */
+}
+
+/* Inline styles - ความ Specificity = 4 */
+p {
+    color: red; /* กำหนดสีตัวอักษรเป็นสีแดง */
 }
