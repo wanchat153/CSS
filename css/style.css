@@ -7,6 +7,19 @@ div {
     
     /* สีพื้นหลัง */
     background: #000;
+
+    /*เลือกใช้ภาพพื้นหลัง */
+    background-image: url(../img/fuji.jpg);
+    /* background: url(../img/fuji.jpg) no-repeat; */
+
+    /* ไม่ให้ภาพพื้นหลังแสดงซ้ำ */
+    background-repeat: no-repeat;
+
+    /* ภาพพื้นหลังจะแสดงเต็ม */
+    background-size: cover;
+
+    /* ภาพพื้นหลังจะแสดงอยู่ตรงกลาง x y*/
+    background-position: 50% 50%;
     
     /* สีข้างใน */
     color: white;
