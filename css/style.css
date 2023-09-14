@@ -1,19 +1,11 @@
-div {
-    background: red;
-    display: inline;
+div.w1{
+    width: 500;
+    border: 2px solid green;
+    background: gray;
 }
 
-span {
-    background: green;
-    display: block;
-}
-
-/* หายไปแบบไม่มีเหลืออะไรเลย */
-.hidden {
-    display: none;
-}
-
-/* หายไปแบบยังทิ้งช่องว่าง */
-.visibility {
-    visibility: hidden;
+div.w2{
+    max-width: 500;
+    border: 2px solid red;
+    background: gray;
 }
