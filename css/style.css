@@ -1,111 +1,19 @@
-div none {
-    /* ความกว้าง */
-    width: 50px;
-    
-    /* ความสูง */
-    height: 50px;
-    
-    /* สีพื้นหลัง */
-    background: #2f2f2f;
-
-    /*เลือกใช้ภาพพื้นหลัง */
-    /* background-image: url(../img/fuji.jpg); */
-    /* background: url(../img/fuji.jpg) no-repeat; */
-
-    /* ไม่ให้ภาพพื้นหลังแสดงซ้ำ */
-    background-repeat: no-repeat;
-
-    /* ภาพพื้นหลังจะแสดงเต็ม */
-    background-size: cover;
-
-    /* ภาพพื้นหลังจะแสดงอยู่ตรงกลาง x y*/
-    background-position: 50% 50%;
-    
-    /* สีข้างใน */
-    color: white;
-    
-    /* ปรับ text อยู่ตรงกลาง */
-    text-align: center;
-
-    /* กำหนดเส้นขอบ border */
-    border: 5px solid red;
+div {
+    background: red;
+    display: inline;
 }
 
-@font-face {
-    /* กำหนดชื่อ fonts อะไรก็ได้*/
-    font-family: Kanit;
-    src: url(../font/Kanit-ExtraLight.woff);
+span {
+    background: green;
+    display: block;
 }
 
-body {
-    /* เรียกใช้งาน Fonts ชื่อ Kanit*/
-    font-family: 'Kanit'
+/* หายไปแบบไม่มีเหลืออะไรเลย */
+.hidden {
+    display: none;
 }
 
-/* class dotted */
-/* p.dotted {
-    border-width: 10;
-    border-bottom-color: pink;
-    border-style: dashed;
-} 
-
-OR
-
-p.dotted {border-style: dotted;}
-p.dashed {border-style: dashed;}
-p.solid {border-style: solid;}
-p.double {border-style: double;}
-p.groove {border-style: groove;}
-p.ridge {border-style: ridge;}
-p.inset {border-style: inset;}
-p.outset {border-style: outset;}
-p.none {border-style: none;}
-p.hidden {border-style: hidden;}
-p.mix {border-style: dotted dashed solid double;} */
-
-div.box {
-    background: black;
-    color: white;
-    border: 3px solid green;
-    margin: 10px;
-}
-
-div.margin {
-    background: white;
-    color: black;
-    border: 3px solid red;
-    margin: 10px;
-    padding: 10px;
-}
-
-div.margin-bottom {
-    background: white;
-    color: black;
-    border: 3px solid red;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-}
-
-div.margin-left {
-    background: white;
-    color: black;
-    border: 3px solid red;
-    margin-left: 10px;
-    padding-left: 10px;
-}
-
-div.margin-right {
-    background: white;
-    color: black;
-    border: 3px solid red;
-    margin-right: 10px;
-    padding-right: 10px;
-}
-
-div.margin-top {
-    background: white;
-    color: black;
-    border: 3px solid red;
-    margin-top: 10px;
-    padding-top: 10px;
+/* หายไปแบบยังทิ้งช่องว่าง */
+.visibility {
+    visibility: hidden;
 }
