@@ -13,4 +13,7 @@ div {
     
     /* ปรับ text อยู่ตรงกลาง */
     text-align: center;
+
+    /* กำหนดเส้นขอบ border */
+    border: 5px solid red;
 }
