@@ -1,15 +1,15 @@
 div {
     /* ความกว้าง */
-    width: 300px;
+    width: 1000px;
     
     /* ความสูง */
-    height: 150px;
+    height: 500px;
     
     /* สีพื้นหลัง */
-    background: #000;
+    background: #2f2f2f;
 
     /*เลือกใช้ภาพพื้นหลัง */
-    background-image: url(../img/fuji.jpg);
+    /* background-image: url(../img/fuji.jpg); */
     /* background: url(../img/fuji.jpg) no-repeat; */
 
     /* ไม่ให้ภาพพื้นหลังแสดงซ้ำ */
@@ -41,3 +41,25 @@ body {
     /* เรียกใช้งาน Fonts ชื่อ Kanit*/
     font-family: 'Kanit'
 }
+
+/* class dotted */
+/* p.dotted {
+    border-width: 10;
+    border-bottom-color: pink;
+    border-style: dashed;
+} 
+
+OR
+*/
+
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
