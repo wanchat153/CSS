@@ -1,44 +1,17 @@
-/* ปกติไม่สามรถปรับขนาดได้ */
-div.static {
+div {
     width: 300px;
-    height: 20px;
-    border: 2px solid green;
-    position: static;
-}
-
-/* จะอ้างอิงจากตำแหน่งเดิมจะดันออกตามที่ใช้ top: right: left: bottom:*/
-div.relative {
-    width: 300px;
-    height: 300px;
-    border: 2px solid red;
-    position: relative;
-}
-
-/* ต้องใช้คู่กับ relative สามารถใช้ top: right: left: bottom: สามารถทะลุกรอบได้ โดย- */
-div.absolute {
-    width: 100px;
-    height: 100px;
-    border: 2px solid blue;
-    position: absolute;
-}
-
-/* จะลอยอยู่ layout ด้านบนสุด ไม่ขยับไปไหน สามารถใช้ top: right: left: bottom: */
-div.fixed {
-    width: 100px;
-    height: 20px;
+    height: 150px;
     border: 2px solid black;
-    position: fixed;
-    background: pink;
-    z-index: 2;
-}
 
-/* จะลอยอยู่ layout ด้านบนสุด จะขยับตามขยับตาม Scroll Mouse สามารถใช้ top: right: left: bottom: */
-div.sticky {
-    width: 100px;
-    height: 20px;
-    border: 2px solid purple;
-    position: sticky;
-    left: 50px;
-    background: yellow;
-    z-index: 1;
+    /* เดิมเดิมไม่มีอะไร */
+    /* overflow: visible; */
+
+    /* ซ่อนเนื้อหาที่เกิน */
+    /* overflow: hidden; */
+
+    /* เพิ่ม scroll */
+    /* overflow: scroll; */
+    
+    /* เพิ่ม scroll ตอนจำเป็น */
+    overflow: auto;
 }
