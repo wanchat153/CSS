@@ -1,22 +1,21 @@
-.div0 {
-    float: left;
-    background: blue;
+/* เมื่อนำเมาส์ไปชี้ที่กล่อง */
+.box:hover {
+    background-color: lightblue;
+    border: 2px solid blue;
 }
 
-.div1 {
-    background: red;
-    float: right;
-
-    /* div::after ใช้สำหรับ clear box สามารถใช้ none left right both */
-    clear: right;    
+/* เมื่อกล่องถูกคลิก */
+.box:active {
+    background-color: lightgreen;
+    border: 2px solid green;
 }
 
-.div2 {
-    background: yellow;
-    float: none;
+/* เมื่อกล่องถูกเลือก */
+.box:focus {
+    outline: 2px solid red;
 }
 
-.div3 {
-    background: green;
-    float: inherit;
+/* องค์ประกอบที่ยังไม่เคยเข้าถึง */
+.box.unused {
+    opacity: 0.5;
 }
