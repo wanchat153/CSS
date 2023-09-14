@@ -17,3 +17,14 @@ div {
     /* กำหนดเส้นขอบ border */
     border: 5px solid red;
 }
+
+@font-face {
+    /* กำหนดชื่อ fonts อะไรก็ได้*/
+    font-family: Kanit;
+    src: url(../font/Kanit-ExtraLight.woff);
+}
+
+body {
+    /* เรียกใช้งาน Fonts ชื่อ Kanit*/
+    font-family: 'Kanit'
+}
