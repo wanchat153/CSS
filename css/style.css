@@ -29,6 +29,7 @@ div.fixed {
     border: 2px solid black;
     position: fixed;
     background: pink;
+    z-index: 2;
 }
 
 /* จะลอยอยู่ layout ด้านบนสุด จะขยับตามขยับตาม Scroll Mouse สามารถใช้ top: right: left: bottom: */
@@ -39,4 +40,5 @@ div.sticky {
     position: sticky;
     left: 50px;
     background: yellow;
+    z-index: 1;
 }
